@@ -1,0 +1,413 @@
+/* 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+ u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.fon {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover; 
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.body {
+	margin: 0 auto;
+	position: relative;
+	max-width:1000px;
+}
+.body1 {
+	margin: 0 auto;
+	position: relative;
+	max-width:1240px;
+}
+/*Шапка*/
+.header {
+	position: relative;
+	height: 60px;
+	margin-left: 13%;
+	margin-right: 14%;
+	margin-top: -1007px;
+	background-color: rgba(177,171,144, 0.5);
+	font-size: 1.3em;
+}
+.header ul li{
+float: left;
+padding: 0 21px;
+color: #fff;
+line-height: 65px;
+
+}
+.header a {
+	display: block;
+}
+.header a:hover {
+	background-color: #EBF1C6;
+	transition: 0.7s all;
+}
+.schapa {
+	margin-left: 20%;
+}
+/*Конец Шапки*/
+.Conteinet {
+	
+	position: relative;
+	margin-top: -950px;
+	margin-left: 13%;
+	margin-right: 14%;
+	height: 937px;
+	width: auto;
+	padding-top: 12px;
+	background-color: #EBF1C6;
+	font-size: 1.5em;
+	z-index: 2;
+}
+.Conteinet_text {
+    text-align: center;
+	padding: 10px 10px;
+}
+.Conteinet_h2 {
+    padding-top: 15px;
+    font-size: 1.6em;
+            
+}
+
+/*Кнопки в шапке*/
+.Fizika {
+	margin-left: 20%;
+	margin-top: 2%;
+	margin-bottom:2%;
+	width: 15%;
+	height: 40%;
+	font-size: 3vw;
+	font-size: 3vh;
+	border-radius: 4px;
+}
+.Matematika {
+	font-size: 3vw;
+	font-size: 3vh;
+	margin-left: 7%;
+	margin-top: 2%;
+	margin-bottom:2%;
+	width: 15%;
+	height: 40%;
+	border-radius: 4px;
+
+
+}
+.Formul {
+	margin-left: 7%;
+	margin-top: 2%;
+	margin-bottom:2%;
+	width: 15%;
+	height: 40%;
+	font-size: 3vw;
+	font-size: 3vh;
+	border-radius: 4px;
+}
+
+/*Боковина на главной*/
+.Sodershanie {
+	margin-left: -1%;
+	width: 14%;
+	height: 1000px;
+	border: 1px solid black;
+	background-color: #4B4A45;
+	z-index: 3;
+	border-right: none;
+	border-bottom: none;
+}
+.Sodershanie1 {
+	position: relative;
+	margin-left: 86%;
+	margin-top: -1001px;
+	width: 15%;
+	height: 1000px;
+	border: 1px solid black;
+	background-color: #4B4A45;
+	border-left: none;
+	border-bottom: none;
+}
+.hr {margin-top: -17px;}
+/*Сайт-бар*/
+.Wnutren {
+	padding-top: 10px;
+	width: auto;
+	height: 57px;
+	background-color: #4B4A45;
+	font-size: 1.7em;
+	color: #EEDF95;
+}
+.Wnutren2 {
+	position: relative;
+	z-index: 2;
+	margin-left: -14%;
+	padding: 10px;
+	width: auto;
+	height: auto;
+	z-index: 1;
+	font-size: 1.1em;
+}
+.Wnutren2 a {
+	padding: 10px;
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	border-bottom: 1px dotted #FFFFFF;
+	letter-spacing: .1em;
+}
+.Wnutren2 a:hover {
+	background-color: #2B2B2D;
+	transition: 0.7s all;}
+.Wnutren2 li {
+	padding: 0px 0px 0px 20px;
+}
+.Wnutren2 ul {
+	padding: 0;
+}
+.spisok {
+	color: white;
+	font-size: 70%;
+}
+.nevedimka {
+	height: 600%;
+}
+.Osnow {
+   
+    width: 100%;
+    height: 100%;
+    font-size: 1.3em;
+}
+.Navigation {
+    background-color: #9D956D;
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    width: 983px;
+    height: 75px;
+    font-size: 1.1em;
+}
+.Navigation2 {
+    background-color: #9D956D;
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    width: 983px;
+    height: 37px;
+    font-size: 1.1em;
+}
+.menu li a {
+    text-align: center;
+    display: block;
+}
+.menu ul li {
+    width: 140px;
+    padding: 10px;
+    display: inline-block;
+}
+.menu ul ul li {
+    width: 154px;
+    padding: 3px;
+}
+.menu ul > li:hover {
+    background-color: #f96;
+}
+.menu ul {
+    position: relative;
+}
+.menu ul ul{
+    margin-top: 10px;
+    margin-left: -10px;
+    display: none;
+    position: absolute;
+    background-color: #9D956D;
+}
+.menu ul ul > li:hover{
+    background-color: #69e;
+}
+.menu li:hover ul{
+    display: block;
+}
+.menu li:hover li{
+    display: block;
+}
+/*Основной контент*/
+.materia {
+	border: 1px solid black;
+    width: 983px;
+	height: auto;
+	background-color: #EEDF95;
+    margin-left: 8px;
+}
+.materia p {
+    padding: 20px 30px 0px;
+}
+/*Матан*/
+.Zag_Mat {
+	width: 1000px;
+	height: 30px;
+	background-color: #4B4A45;
+	color: #EEDF95;
+	padding-top: 1px;
+	border-radius: 9px;
+}
+.Zag_Mat p {
+	padding-top: 4px;
+	text-align: center;
+	font-size: 1.3em;
+}
+.Zag_Mat ul li {
+	line-height: 37px;
+	float: left;
+}
+.Zag_Mat ul li:hover {
+	background-color: #EBF1C6;
+	transition: 0.7s all;
+	}
+.Zag_Mat a {
+    display: block;
+	color: white;
+}
+.Zag_Mat a:hover {
+	color: black;
+}
+.knopka {
+	margin-top: -30px;
+	margin-left: 38px;
+}
+/*Пол*/
+.pol {
+	border-top: none;
+	z-index: 4;
+	position: relative;
+	border: 1px solid black;
+	width: 102%;
+	height: 95px;
+	background-color: #4B4A45;
+	margin: -1%;
+	margin-top: 937px;
+}
+.Prawa {
+	text-align: center;
+	width: 40%;
+	height: 40px;
+	margin-left: 30%;
+	margin-top: 10px;
+}
+.Prawa p {
+	padding-top: 10px;
+}
+.Prawa a {
+	color: white;
+}
+.Prawa a:hover { color: #EEDF95;}
+/*Конец_Пол*/
+.a {
+	display: block;
+	height: 100%;
+}
+
+
+.strela{
+    position: fixed;
+    margin-top: 18%;
+    margin-left: 473px;
+}
+.logotip {
+    position: absolute;
+    margin-top: -992px;
+    margin-left: 19px;
+    z-index: 5;
+     width: 34px;
+}
+.logotip1 {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 4px;
+    z-index: 5;
+    width: 28px
+}
+.ZagolowOsnow {
+    font-size: 1.3em;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.paragraf {
+    margin: 0px 40px 0px;
+    font-size: 0.9em
+}
+.a1 {
+    color: green;
+}
+.sat {
+    position: absolute;
+    margin-left: 866px;
+    margin-top: 1px;
+    width: 130px;
+}
+.powerh {
+    z-index: 99;
+}
+.pod_lin {
+    margin-top: -38px;
+    background-color: black;
+    border: 0.1px solid black;
+}
+.whod{
+    width:100px;
+    border: 2px solid #69e;
+    background: white;
+    border-radius:5px;
+    padding: 7px;
+}
+.whod:hover{
+    background:#69e;
+}
+content label, content input {
+    padding: 5px;
+}

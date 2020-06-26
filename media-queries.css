@@ -1,0 +1,47 @@
+@media only screen and (max-width:1183px) {
+	.okrug2 {
+    width: 800px;
+    }
+    .body {
+		font-size:  0.9em;
+	}
+    .body1 {
+		font-size:  0.7em;
+	}
+    .Wnutren2 {
+        margin-left: -15%;
+    }
+    .okrug {
+    width: 150px;
+    margin-top: -80px;
+    margin-left: 320px;
+}
+    .img3 {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -130px;
+    width: 100px;
+}
+}
+@media only screen and (max-width:1000px) {
+	.okrug2 {
+    width: 700px;
+    }
+    .body {
+		font-size:  0.7em;
+	}
+    .body1 {
+		font-size:  0.6em;
+        min-width: 800px;
+	}
+     .Wnutren2 {
+        margin-left: -17%;
+    }
+    .img3 {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -130px;
+    width: 100px;
+    }
+}
+
